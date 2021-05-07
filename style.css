@@ -1,0 +1,30 @@
+body{
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    margin: 0%;
+}
+
+@font-face {
+    font-family: crackman;
+    src: url("fonts/crackman.ttf")
+}
+
+h1{
+    font-family: crackman;
+    font-size: 50px;
+    margin: 10px;
+    color:gold;
+}
+
+.bg{
+    background-image: url("images/bg5.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    background-position: center;
+}
